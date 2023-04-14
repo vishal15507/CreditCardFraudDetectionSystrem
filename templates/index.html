@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Classification Model</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <style>
+            .GFG {
+                background-color: white;
+                border: 2px solid greenyellow;
+                color: red;
+                padding: 5px 10px;
+                text-align: center;
+                display: inline-block;
+                font-size: 20px;
+                margin: 10px 30px;
+                cursor: pointer;
+            }
+        </style>
+        <style>
+            body {
+                background-image: url('/static/img/background.jpg');
+            }
+         </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-center mt-5">
+                <h1>Credit Card Fraud Transactions prediction model</h1>
+                <p class="lead">This model can take transactions in real time and give the output.</p>
+                <p class="lead">Click on the button below to go to the model dashboard.</p>
+                <a href="http://127.0.0.1:5000/dashboard">
+                    <button class='GFG'>
+                        Dashboard
+                    </button>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
